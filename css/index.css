@@ -50,8 +50,24 @@ body.open-menu .screen {
     left: 30%;
     height: auto;
     border: 1px solid black;
+    border-radius: 15px;
     background-color: white;
     display: none;
+    text-align: center;
+}
+
+.modalClose {
+    float: right;
+}
+
+
+/* 
+.modal button {
+    margin-left: 15px;
+} */
+
+.modalSub {
+    float: left;
 }
 
 .footer {
@@ -179,7 +195,7 @@ li {
     /* Style for "Shape 5 co" */
     width: 8.25rem;
     height: 8.125em;
-    box-shadow: -1px 0 0 #1d1d1d;
+    box-shadow: inset 0 -6px 0 #1e1e1e;
     background-color: #292929;
 }
 
@@ -213,7 +229,7 @@ li {
 }
 
 .continue:hover .cont-btn {
-    width: 8.4375‬rem;
+    width: 15.4375‬rem;
     height: 0.9375‬rem;
     color: #58c93a;
     font-family: Lato;
@@ -227,20 +243,27 @@ li {
 
 .continue:hover {
     /* Style for "Shape 4 co" */
-    width: 13.125‬rem;
+    width: 12.625rem;
     height: 2.5‬rem;
     border: 0.125‬rem solid #58c93a;
     background-color: #ffffff;
 }
 
 .continue:hover .img-cont {
-    visibility: visible;
+    display: block;
+}
+
+.modal h2 {
+    padding: 1.25rem;
 }
 
 .img-cont {
     /* Style for "Layer 1" */
+    position: relative;
     width: 0.9375‬rem;
-    visibility: hidden;
+    display: none;
+    left: 170px;
+    bottom: 10px;
 }
 
 .journal:hover .journalNav {
@@ -280,11 +303,14 @@ li {
     transition-delay: 0.1s
 }
 
-.img-item {
-    /* Style for "Layer 2" */
-    /* width: 29.25rem;
-    height: 19.1875rem; */
-}
+
+/* .img-item {
+                                                                        /* Style for "Layer 2" */
+
+
+/* width: 29.25rem;
+
+                                                                } */
 
 .inner-img {
     flex-grow: 1;
@@ -303,8 +329,8 @@ li {
 
 .title {
     /* margin-block-start: 0;
-    margin-block-end: 0; */
-    /* Style for "Duis aute" */
+
+                                                                    /* Style for "Duis aute" */
     /* width: 24.125rem; */
     height: 3.1875‬rem;
     color: #4f4e4e;
@@ -319,13 +345,12 @@ li {
 
 .p-item {
     /* margin-block-start: 0;
-    margin-block-end: 0;
-    margin-top: 57px; */
-    flex-grow: 1;
-}
-
-.prev-btn {
-    /* Style for "Previous" */
+  
+                                                                    flex-grow: 1;
+                                                                }
+                                                                
+                                                                .prev-btn {
+                                                                    /* Style for "Previous" */
     /* width: 5.9375‬rem; */
     height: 0.875‬rem;
     color: #818181;
@@ -508,9 +533,9 @@ li {
         width: auto;
     }
     .modal {
-        left: 0;
+        left: 12px;
         /* top: 50vh; */
-        width: 100%;
+        width: 90%;
     }
     /* .openJournal {} */
     .journal:hover .journalNav {
