@@ -45,12 +45,12 @@ body.open-menu .screen {
 .modal {
     position: fixed;
     z-index: 2;
-    width: 31em;
+    width: 30em;
     top: 40%;
     left: 30%;
     height: auto;
     border: 1px solid black;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: white;
     display: none;
     text-align: center;
@@ -58,6 +58,7 @@ body.open-menu .screen {
 
 .modalClose {
     float: right;
+    border-radius: 10px;
 }
 
 
@@ -68,6 +69,7 @@ body.open-menu .screen {
 
 .modalSub {
     float: left;
+    border-radius: 10px;
 }
 
 .footer {
@@ -303,15 +305,6 @@ li {
     transition-delay: 0.1s
 }
 
-
-/* .img-item {
-                                                                        /* Style for "Layer 2" */
-
-
-/* width: 29.25rem;
-
-                                                                } */
-
 .inner-img {
     flex-grow: 1;
     max-width: auto;
@@ -328,10 +321,6 @@ li {
 }
 
 .title {
-    /* margin-block-start: 0;
-
-                                                                    /* Style for "Duis aute" */
-    /* width: 24.125rem; */
     height: 3.1875‬rem;
     color: #4f4e4e;
     font-family: 'lato-bold';
@@ -344,13 +333,6 @@ li {
 }
 
 .p-item {
-    /* margin-block-start: 0;
-  
-                                                                    flex-grow: 1;
-                                                                }
-                                                                
-                                                                .prev-btn {
-                                                                    /* Style for "Previous" */
     /* width: 5.9375‬rem; */
     height: 0.875‬rem;
     color: #818181;
@@ -533,7 +515,7 @@ li {
         width: auto;
     }
     .modal {
-        left: 12px;
+        left: 5vw;
         /* top: 50vh; */
         width: 90%;
     }
