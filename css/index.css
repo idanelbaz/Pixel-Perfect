@@ -338,7 +338,7 @@ li {
     color: #818181;
     font-family: 'lato-bold';
     font-size: 1.125rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     /* Text style for "P, revious" */
     letter-spacing: 0.9px;
     float: left;
@@ -361,6 +361,20 @@ li {
     margin-top: 1.875rem;
     margin-bottom: 1.875rem;
     margin-right: 1rem;
+}
+
+.prev-btn {
+    height: 0.875rem;
+    color: #818181;
+    font-family: 'lato-bold';
+    font-size: 1.125‬rem;
+    text-transform: uppercase;
+    /* Text style for "N, ext" */
+    letter-spacing: 0.9px;
+    float: left;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    margin-left: 1rem;
 }
 
 .img-scroll-next {
